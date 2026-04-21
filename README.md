@@ -1,5 +1,5 @@
 # Software-effort-estimation-using-machine-learning-technique
-- **[Software effort estimation using machine learning technique]([https://doi.org/DOI-link](https://dspace.uevora.pt/rdpc/handle/10174/41184))** - SAI, 2023
+- **[Software effort estimation using machine learning technique](https://dspace.uevora.pt/rdpc/bitstream/10174/41184/1/Paper_91-Software_Effort_Estimation_using_Machine_Learning_Technique.pdf)** - SAI, 2023
 
   [![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/)
   [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
