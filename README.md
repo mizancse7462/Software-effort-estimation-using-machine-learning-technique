@@ -5,32 +5,28 @@
 
 ## Overview
 This project implements **Software Effort Estimation** using various machine learning regression techniques. The goal is to predict key project metrics such as working time, days required, and total working days based on task characteristics and historical data.
-     9	
-    10	## 📋 Project Description
-    11	
-    12	Accurate software effort estimation is crucial for project planning and resource allocation. This repository demonstrates the application of machine learning algorithms to predict:
-    13	- **Total Working Time (in hours)**
-    14	- **Days Required**
-    15	- **Total Working Days**
-    16	
-    17	## 🎯 Features
-    18	
-    19	- **Data Preprocessing**: Label encoding for categorical variables
-    20	- **Multiple ML Models**:
-    21	  - Decision Tree Regressor
-    22	  - K-Nearest Neighbors (KNN) Regressor
-    23	  - Support Vector Regression (SVR)
-    24	- **Model Evaluation**: MAE, MSE, and R² score metrics
-    25	- **Visualization**: Comparison of actual vs predicted values
-    26	
-    27	## 📊 Dataset
-    28	
-    29	The project uses the **TMS_Data.xlsx** dataset containing the following features:
-    30	
-    31	| Feature | Description |
-    32	|---------|-------------|
-    33	| UserId | Unique identifier for users |
-    34	| TaskHistoryId | Task history identifier |
+
+## 📋 Project Description
+Accurate software effort estimation is crucial for project planning and resource allocation. This repository demonstrates the application of machine learning algorithms to predict:
+- **Total Working Time (in hours)**
+- **Days Required**
+- **Total Working Days**
+
+## 🎯 Features
+- **Data Preprocessing**: Label encoding for categorical variables
+- **Multiple ML Models**:
+- Decision Tree Regressor
+- K-Nearest Neighbors (KNN) Regressor
+- Support Vector Regression (SVR)
+- **Model Evaluation**: MAE, MSE, and R² score metrics
+- **Visualization**: Comparison of actual vs predicted values
+
+## 📊 Dataset
+The project uses the **TMS_Data.xlsx** dataset containing the following features:
+| Feature | Description |
+|---------|-------------|
+| UserId | Unique identifier for users |
+| TaskHistoryId | Task history identifier |
     35	| ProjectId | Project identifier |
     36	| ClientId | Client identifier |
     37	| TypeName | Type of task (categorical) |
