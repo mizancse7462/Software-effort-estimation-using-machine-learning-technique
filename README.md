@@ -1,14 +1,10 @@
 # Software-effort-estimation-using-machine-learning-technique
 
+  [![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/)
+  [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-# Software Effort Estimation using Machine Learning Techniques
-     2	
-     3	[![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/)
-     4	[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-     5	
-     6	## Overview
-     7	
-     8	This project implements **Software Effort Estimation** using various machine learning regression techniques. The goal is to predict key project metrics such as working time, days required, and total working days based on task characteristics and historical data.
+## Overview
+This project implements **Software Effort Estimation** using various machine learning regression techniques. The goal is to predict key project metrics such as working time, days required, and total working days based on task characteristics and historical data.
      9	
     10	## 📋 Project Description
     11	
