@@ -3,7 +3,6 @@
 
   [![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/)
   [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-## Publication Link --> 
 ## Overview
 **Software Engineering Effort Estimation** plays a significant role in managing project cost, quality, and time and creating software. Researchers have been paying close attention to software estimation during the past few decades, and a great amount of work has been done utilizing a variety of machine-learning techniques and algorithms. In order to better effectively evaluate predictions, this study recommends various machine learning algorithms for estimating, including k-nearest neighbor regression, support vector regression, and decision trees. These methods are now used by the software development industry for software estimating with the goal of overcoming the limitations of parametric and conventional estimation techniques and advancing projects. Our dataset, which was created by a software company called Edusoft Consulted LTD, was used to assess the effectiveness of the established method. The three commonly used performance evaluation measures, mean absolute error (MAE), mean squared error (MSE), and R square error, represent the base for these. Comparative experimental results demonstrate that decision trees perform better at predicting effort than other techniques.
 
@@ -38,14 +37,8 @@ The project uses the **TMS_Data.xlsx** dataset containing the following features
 - **Python 3.7+**
 - **pandas** - Data manipulation
 - **NumPy** - Numerical computations
-    52	- **scikit-learn** - Machine learning algorithms
-    53	- **Matplotlib** - Data visualization
-
-
-## 📁 File Structure
-├── README.md                           # Project documentation
-├── Software effort estimation.ipynb    # Main Jupyter notebook
-└── TMS_Data.xlsx                       # Dataset file
+- **scikit-learn** - Machine learning algorithms
+- **Matplotlib** - Data visualization
 
 
 ## 🔍 Methodology
