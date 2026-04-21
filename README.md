@@ -1,16 +1,11 @@
 # Software-effort-estimation-using-machine-learning-technique
+- **[Software effort estimation using machine learning technique]([https://doi.org/DOI-link](https://dspace.uevora.pt/rdpc/handle/10174/41184))** - SAI, 2023
 
   [![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/)
   [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
+## Publication Link --> 
 ## Overview
-This project implements **Software Effort Estimation** using various machine learning regression techniques. The goal is to predict key project metrics such as working time, days required, and total working days based on task characteristics and historical data.
-
-## 📋 Project Description
-Accurate software effort estimation is crucial for project planning and resource allocation. This repository demonstrates the application of machine learning algorithms to predict:
-- **Total Working Time (in hours)**
-- **Days Required**
-- **Total Working Days**
+**Software Engineering Effort Estimation** plays a significant role in managing project cost, quality, and time and creating software. Researchers have been paying close attention to software estimation during the past few decades, and a great amount of work has been done utilizing a variety of machine-learning techniques and algorithms. In order to better effectively evaluate predictions, this study recommends various machine learning algorithms for estimating, including k-nearest neighbor regression, support vector regression, and decision trees. These methods are now used by the software development industry for software estimating with the goal of overcoming the limitations of parametric and conventional estimation techniques and advancing projects. Our dataset, which was created by a software company called Edusoft Consulted LTD, was used to assess the effectiveness of the established method. The three commonly used performance evaluation measures, mean absolute error (MAE), mean squared error (MSE), and R square error, represent the base for these. Comparative experimental results demonstrate that decision trees perform better at predicting effort than other techniques.
 
 ## 🎯 Features
 - **Data Preprocessing**: Label encoding for categorical variables
@@ -27,99 +22,39 @@ The project uses the **TMS_Data.xlsx** dataset containing the following features
 |---------|-------------|
 | UserId | Unique identifier for users |
 | TaskHistoryId | Task history identifier |
-    35	| ProjectId | Project identifier |
-    36	| ClientId | Client identifier |
-    37	| TypeName | Type of task (categorical) |
-    38	| TaskOverallState | Current state of task (categorical) |
-    39	| PriorityName | Priority level (categorical) |
-    40	| TotalWorkingTimeInHour | **Target**: Total working time in hours |
-    41	| NoOfStart | Number of start events |
-    42	| NoOfPause | Number of pause events |
-    43	| NoOfFinish | Number of finish events |
-    44	| DaysRequired | **Target**: Days required for completion |
-    45	| TotalWorkingDay | **Target**: Total working days |
-    46	
-    47	## 🛠️ Technologies Used
-    48	
-    49	- **Python 3.7+**
-    50	- **pandas** - Data manipulation
-    51	- **NumPy** - Numerical computations
+| ProjectId | Project identifier |
+| ClientId | Client identifier |
+| TypeName | Type of task (categorical) |
+| TaskOverallState | Current state of task (categorical) |
+| PriorityName | Priority level (categorical) |
+| TotalWorkingTimeInHour | **Target**: Total working time in hours |
+| NoOfStart | Number of start events |
+| NoOfPause | Number of pause events |
+| NoOfFinish | Number of finish events |
+| DaysRequired | **Target**: Days required for completion |
+| TotalWorkingDay | **Target**: Total working days |
+
+## 🛠️ Technologies Used
+- **Python 3.7+**
+- **pandas** - Data manipulation
+- **NumPy** - Numerical computations
     52	- **scikit-learn** - Machine learning algorithms
     53	- **Matplotlib** - Data visualization
-    54	
-    55	## 📦 Installation
-    56	
-    57	1. Clone the repository:
-    58	```bash
-    59	git clone <repository-url>
-    60	cd <repository-directory>
-    61	```
-    62	
-    63	2. Install required dependencies:
-    64	```bash
-    65	pip install pandas numpy scikit-learn matplotlib openpyxl
-    66	```
-    67	
-    68	## 🚀 Usage
-    69	
-    70	1. Open the Jupyter notebook:
-    71	```bash
-    72	jupyter notebook "Software effort estimation.ipynb"
-    73	```
-    74	
-    75	2. Run all cells sequentially to:
-    76	   - Load and preprocess the data
-    77	   - Train the machine learning models
-    78	   - Evaluate model performance
-    79	   - Visualize results
-    80	
-    81	## 📈 Model Performance
-    82	
-    83	The models are evaluated using the following metrics:
-    84	- **MAE (Mean Absolute Error)**: Average absolute difference between predicted and actual values
-    85	- **MSE (Mean Squared Error)**: Average squared difference between predicted and actual values
-    86	- **R² Score**: Coefficient of determination indicating model fit quality
-    87	
-    88	## 📁 File Structure
-    89	
-    90	```
-    91	├── README.md                           # Project documentation
-    92	├── Software effort estimation.ipynb    # Main Jupyter notebook
-    93	└── TMS_Data.xlsx                       # Dataset file
-    94	```
-    95	
-    96	## 🔍 Methodology
-    97	
-    98	1. **Data Loading**: Import Excel dataset using pandas
-    99	2. **Preprocessing**: 
-   100	   - Encode categorical variables (TypeName, TaskOverallState, PriorityName)
-   101	   - Feature selection
-   102	3. **Train-Test Split**: 90% training, 10% testing
-   103	4. **Model Training**: Fit multiple regression models
-   104	5. **Evaluation**: Compare predictions against actual values
-   105	6. **Visualization**: Plot actual vs predicted values
-   106	
-   107	## 📝 Results
-   108	
-   109	The project demonstrates the feasibility of using machine learning for software effort estimation. Different models can be compared to find the best performing algorithm for the given dataset.
-   110	
-   111	## 🤝 Contributing
-   112	
-   113	Contributions are welcome! Please feel free to submit a Pull Request.
-   114	
-   115	## 📄 License
-   116	
-   117	This project is licensed under the MIT License.
-   118	
-   119	## 👨‍💻 Author
-   120	
-   121	*Add your name and contact information here*
-   122	
-   123	## 🙏 Acknowledgments
-   124	
-   - scikit-learn team for excellent ML libraries
-   - pandas development team for data manipulation tools
-   - Jupyter project for interactive computing environment
-   128	
-   129	---
-   130	
+
+
+## 📁 File Structure
+├── README.md                           # Project documentation
+├── Software effort estimation.ipynb    # Main Jupyter notebook
+└── TMS_Data.xlsx                       # Dataset file
+
+
+## 🔍 Methodology
+1. **Data Loading**: Import Excel dataset using pandas
+2. **Preprocessing**: 
+- Encode categorical variables (TypeName, TaskOverallState, PriorityName)
+- Feature selection
+3. **Train-Test Split**: 90% training, 10% testing
+4. **Model Training**: Fit multiple regression models
+5. **Evaluation**: Compare predictions against actual values
+6. **Visualization**: Plot actual vs predicted values
+ 
